@@ -56,3 +56,14 @@
 * The jar file can be used to run the app locally without having the project installed.
 * mvn spring-boot:run - runs app directly without packaging it.
 * mvn spring-boot:build-image - builds a Docker image of app.
+
+
+# Homework
+1. list all annotations learnt so far.
+2. Scenarios where Spring Framework can be very useful over NodeJS.
+3. Scenarios where Spring Boot can be very useful over Spring Framework.
+4. Alice and her bakery:
+    * CakeBaker class dependent on Frosting and Syrup classes. Has function bakeCake.
+    * Interfaces Frosting and Syrup with functions getFrostingType and getSyrupType.
+    * 2 implementations of these interfaces (so total 4 classes) for Strawberry and Chocolate flavours.
+    * Use DI to inject the dependencies into CakeBaker and to call bakeCake method. 
